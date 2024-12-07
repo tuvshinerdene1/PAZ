@@ -1,0 +1,13 @@
+import acm.program.*;
+import acm.graphics.*;
+
+public class exercise1 extends GraphicsProgram {
+	public void run(){
+		GLabel label = new GLabel("I love Java");
+		add(label)
+	
+	}
+	public static void main(String[] args) {
+        new exercise1().start();
+    }
+}

@@ -1,0 +1,36 @@
+import acm.graphics.GLine;
+import acm.program.*;
+import java.awt.event.*;
+import java.util.concurrent.*;
+public class exercise9 extends GraphicsProgram {
+	public static final int BOARD_SIZE = 200;
+	
+	public void run(){
+		
+			double windowW=getWidth();
+			double windowH=getHeight();
+			//vertical line1
+			GLine v1 = new GLine((windowW-BOARD_SIZE)/2+BOARD_SIZE/3, (windowH-BOARD_SIZE)/2, (windowW-BOARD_SIZE)/2+BOARD_SIZE/3,(windowH-BOARD_SIZE)/2+BOARD_SIZE);
+			add(v1);
+			//vertical line2
+			GLine v2 = new GLine((windowW-BOARD_SIZE)/2+(BOARD_SIZE/3)*2, (windowH-BOARD_SIZE)/2, (windowW-BOARD_SIZE)/2+(BOARD_SIZE/3)*2,(windowH-BOARD_SIZE)/2+BOARD_SIZE);
+			add(v2);
+			
+			//horizontal line1
+			GLine h2 = new GLine((windowW - BOARD_SIZE)/2, (windowH-BOARD_SIZE)/2+(BOARD_SIZE/3)*2 ,(windowW - BOARD_SIZE)/2+BOARD_SIZE,(windowH-BOARD_SIZE)/2+(BOARD_SIZE/3)*2);
+			add(h2);
+			//horizontal line2
+			GLine h1 = new GLine((windowW - BOARD_SIZE)/2, (windowH-BOARD_SIZE)/2+(BOARD_SIZE/3) ,(windowW - BOARD_SIZE)/2+BOARD_SIZE,(windowH-BOARD_SIZE)/2+(BOARD_SIZE/3));
+			add(h1);
+			
+			double Wafter = getWidth();
+			double Hafter = getHeight();
+			
+			if(windowW != Wafter && windowH != Hafter){
+				removeAll();
+			}
+	}
+	public static void main(String[] args){
+		new exercise9().start();
+	}
+}

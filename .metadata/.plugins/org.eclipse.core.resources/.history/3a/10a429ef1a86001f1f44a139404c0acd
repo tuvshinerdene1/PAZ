@@ -1,0 +1,15 @@
+import acm.program.GraphicsProgram;
+import acm.graphics.*;
+
+public class exercise5 extends GraphicsProgram {
+    public void run() {
+    	GRect head = new GRect(200, 200, 300, 500);
+    	add(head);
+    	GOval eye1 = new GOval(240, 300, 50, 50);
+    	add(eye1);
+    }
+
+    public static void main(String[] args) {
+        new exercise5().start();
+    }
+}

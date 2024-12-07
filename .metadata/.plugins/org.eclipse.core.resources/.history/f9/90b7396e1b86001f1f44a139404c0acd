@@ -1,0 +1,19 @@
+import acm.program.GraphicsProgram;
+import acm.graphics.*;
+
+public class exercise5 extends GraphicsProgram {
+    public void run() {
+    	GRect head = new GRect(200, 200, 300, 500);
+    	add(head);
+    	GOval eye1 = new GOval(240, 300, 50, 50);
+    	add(eye1);
+    	GOval eye2 = new GOval(410, 300, 50, 50);
+    	add(eye2);
+    	GRect nose = new GRect(345, 400, 10, 20);
+    	add(nose);
+    }
+
+    public static void main(String[] args) {
+        new exercise5().start();
+    }
+}

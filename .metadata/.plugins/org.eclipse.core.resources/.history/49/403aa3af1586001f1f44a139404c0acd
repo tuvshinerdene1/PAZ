@@ -1,0 +1,19 @@
+import acm.program.GraphicsProgram;
+import acm.graphics.*;
+
+public class exercise4 extends GraphicsProgram {
+    public void run() {
+        GRect base = new GRect (400, 400, 400, 300);
+        add(base);
+        
+        GLine line1 = new GLine (400, 400, 600, 200);
+        add(line1);
+        
+        GLine line2 = new GLine (600, 200, 800, 400);
+        add(line2);
+    }
+
+    public static void main(String[] args) {
+        new exercise4().start();
+    }
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;BOARD_SIZE&apos; in &apos;exercise9.run()&apos; to &apos;board&apos;&#x0D;&#x0A;- Original project: &apos;Lab5&apos;&#x0D;&#x0A;- Original element: &apos;exercise9.run().BOARD_SIZE&apos;&#x0D;&#x0A;- Renamed element: &apos;BOARD_SIZE&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;BOARD_SIZE&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{exercise9.java[exercise9~run@BOARD_SIZE!158!188!162!171!I!0!false" name="board" references="true" stamp="1729659934323" version="1.0"/>
+</session>

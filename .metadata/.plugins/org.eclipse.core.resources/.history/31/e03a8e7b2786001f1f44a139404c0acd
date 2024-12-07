@@ -1,0 +1,16 @@
+import acm.program.GraphicsProgram;
+
+import java.awt.Color;
+
+import acm.graphics.*;
+
+public class exercise6 extends GraphicsProgram {
+    public void run() {
+    	GOval circle1 = new GOval(200, 200, 200, 200);
+    	add(circle1);
+    }
+
+    public static void main(String[] args) {
+        new exercise6().start();
+    }
+}

@@ -1,0 +1,34 @@
+import acm.program.ConsoleProgram;
+import java.lang.*;
+
+public class Exercise5 extends ConsoleProgram{
+	
+	public void run(){
+		
+		println("This programm will use swap method!!!");
+		
+		int a = readInt("Enter integer1= ");
+		int b = readInt("Enter integer2= ");
+		
+		Integer integer1 = a;
+		Integer integer2 = b;
+		//INT integer1 = new INT(a);
+		//INT integer2 = new INT(b);
+		swap(integer1, integer2);
+		
+		println("After swapping:");
+		println("integer1 is now "+integer1.intValue());
+		println("integer2 is now "+integer2.intValue());
+	
+	}
+	
+	private void swap(Integer x, Integer y){
+		Integer temp = new Integer(x.intValue());
+		x = new Integer(y);
+		y = new Integer(temp);
+	}
+	
+	public static void main(String[] arg){
+		new Exercise5().start();
+	}
+}

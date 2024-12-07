@@ -1,0 +1,12 @@
+import acm.program.GraphicsProgram;
+import acm.graphics.*;
+
+public class exercise5 extends GraphicsProgram {
+    public void run() {
+    	
+    }
+
+    public static void main(String[] args) {
+        new exercise5().start();
+    }
+}

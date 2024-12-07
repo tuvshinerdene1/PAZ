@@ -1,0 +1,11 @@
+import acm.graphics.*;
+import acm.program.*;
+
+public class animation_test extends GraphicsProgram{
+	public void run(){
+		GRect square = new GRect(0, 0, )
+	}
+	public static void main(String[] args){
+		new animation_test().start();
+	}
+}

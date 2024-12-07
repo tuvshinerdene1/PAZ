@@ -1,0 +1,13 @@
+import acm.program.GraphicsProgram;
+import acm.graphics.*;
+
+public class exercise4 extends GraphicsProgram {
+    public void run() {
+        GRect base = new GRect (500, 500, 400, 300);
+        add(base);
+    }
+
+    public static void main(String[] args) {
+        new exercise4().start();
+    }
+}
