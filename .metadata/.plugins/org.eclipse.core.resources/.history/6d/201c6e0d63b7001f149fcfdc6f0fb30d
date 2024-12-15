@@ -1,0 +1,16 @@
+import acm.program.ConsoleProgram;
+import acm.util.RandomGenerator;
+import java.lang.*;
+
+public class exercise6 extends ConsoleProgram{
+	
+	public void run(){
+		
+	}
+	boolean isSentencePalindrome(String word){
+		return true;
+	}
+	public static void main(String[] arg){
+		new exercise6().start();
+	}
+}

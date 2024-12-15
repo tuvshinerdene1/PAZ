@@ -1,0 +1,24 @@
+import acm.program.ConsoleProgram;
+import acm.util.RandomGenerator;
+import java.lang.*;
+
+public class exercise9 extends ConsoleProgram{
+	
+	public void run(){
+		int number = readInt("enter a number: ");
+		println("added commas : "+addCommas(Integer.toString(number)));
+	}
+	private String addCommas(String digits){
+		String result = "";
+		for(int i = digits.length()-1 ; i >= 0 ;i--){
+			if((digits.length() - 1 - i )%3==0 && i < digits.length()-1){
+				result = ',' + result;
+			}
+			result = digits.charAt(i) + result;
+		}
+		return result;
+	}
+	public static void main(String[] arg){
+		new exercise9().start();
+	}
+}

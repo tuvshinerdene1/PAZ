@@ -1,0 +1,19 @@
+import acm.program.ConsoleProgram;
+import acm.util.RandomGenerator;
+import java.lang.*;
+
+public class exercise7 extends ConsoleProgram{
+	
+	public void run(){
+		int number = readInt("enter the number: ");
+		println("The oridinal form is "+createOrdinalForm(number));
+	}
+	
+	private String createOrdinalForm(int num){
+		return "";
+	}
+
+	public static void main(String[] arg){
+		new exercise7().start();
+	}
+}

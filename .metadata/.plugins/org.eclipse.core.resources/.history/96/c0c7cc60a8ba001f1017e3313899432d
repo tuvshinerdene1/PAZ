@@ -1,0 +1,21 @@
+import acm.program.ConsoleProgram;
+import acm.util.RandomGenerator;
+import java.lang.*;
+import java.util.*;
+
+public class exercise10 extends ConsoleProgram{
+	
+	public void run(){
+		
+		String sentence = readLine("enter a line: ");
+		println(longestWord(sentence));
+		
+	}
+	private String longestWord(String line){
+		String result = "";
+		StringTokenizer tokenizer = new StringTokenizer(line, DELIMITERS, true); 
+	}
+	public static void main(String[] arg){
+		new exercise10().start();
+	}
+}

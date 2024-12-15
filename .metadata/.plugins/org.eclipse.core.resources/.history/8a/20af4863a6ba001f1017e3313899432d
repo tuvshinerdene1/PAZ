@@ -1,0 +1,17 @@
+import acm.program.ConsoleProgram;
+import acm.util.RandomGenerator;
+import java.lang.*;
+
+public class exercise9 extends ConsoleProgram{
+	
+	public void run(){
+		int number = readInt("enter a number: ");
+		println(addCommas(Integer.toString(number)));
+	}
+	private String addCommas(String digits){
+		return "";
+	}
+	public static void main(String[] arg){
+		new exercise9().start();
+	}
+}

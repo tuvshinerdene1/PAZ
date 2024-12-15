@@ -1,0 +1,14 @@
+import acm.program.ConsoleProgram;
+import acm.util.RandomGenerator;
+import java.lang.*;
+
+public class exercise10 extends ConsoleProgram{
+	
+	public void run(){
+		
+	}
+
+	public static void main(String[] arg){
+		new exercise10().start();
+	}
+}
