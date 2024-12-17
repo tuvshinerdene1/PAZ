@@ -1,0 +1,16 @@
+import acm.graphics.*;
+import acm.program.GraphicsProgram;
+import acm.util.RandomGenerator;
+
+public class exercise2 extends GraphicsProgram {
+	
+	RandomGenerator rgen = RandomGenerator.getInstance();
+	
+	public void run(){
+		
+	}
+	
+	public static void main(String[] args){
+		new exercise2().start();
+	}
+}

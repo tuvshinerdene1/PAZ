@@ -1,0 +1,15 @@
+import acm.graphics.*;
+import acm.program.GraphicsProgram;
+
+public class exercise1 extends GraphicsProgram {
+	public void run(){
+		GImage image = new GImage("gaben.jpeg");
+		double x = (getWidth() - image.getWidth()) /2 ;
+		double y = (getHeight() - image.getHeight()) / 2;
+		add(image, x, y);
+		
+	}
+	public static void main(String[] args){
+		new exercise1().start();
+	}
+}
